@@ -35,77 +35,154 @@
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2h9-gc-CHR">
-                                <rect key="frame" x="39.5" y="212" width="62" height="36"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" title="brush teeth">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypo-uf-sAB" userLabel="teeth">
+                                <rect key="frame" x="12" y="193" width="30" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="6BP-DE-Zfr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="10"/>
+                                <state key="normal" title="O"/>
+                                <connections>
+                                    <action selector="teethbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kcW-6v-Ymw"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7b-eO-JUa">
-                                <rect key="frame" x="42" y="253" width="57" height="36"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" title="wash face">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEJ-0U-j6d" userLabel="face">
+                                <rect key="frame" x="12" y="231" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="10"/>
+                                <state key="normal" title="O"/>
+                                <connections>
+                                    <action selector="facebutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rdV-3b-21e"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kz8-RZ-aPU">
-                                <rect key="frame" x="36" y="294" width="69" height="36"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" title="take shower">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93K-hK-Mfk" userLabel="shower">
+                                <rect key="frame" x="12" y="271" width="30" height="28"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="10"/>
+                                <state key="normal" title="O"/>
+                                <connections>
+                                    <action selector="showerbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pXT-BZ-0re"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjQ-Ud-e4k">
-                                <rect key="frame" x="47" y="335" width="47" height="36"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" title="eat food">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z63-Jz-TjZ" userLabel="food">
+                                <rect key="frame" x="12" y="309" width="30" height="30"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="10"/>
+                                <state key="normal" title="O"/>
+                                <connections>
+                                    <action selector="foodbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ma8-VV-dbs"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yu1-qB-v4C">
-                                <rect key="frame" x="38" y="376" width="65" height="36"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" title="drink water">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hh9-OB-bfb" userLabel="water">
+                                <rect key="frame" x="12" y="349" width="30" height="28"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="10"/>
+                                <state key="normal" title="O"/>
+                                <connections>
+                                    <action selector="waterbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="grf-9H-CIb"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndd-Yn-aeL">
-                                <rect key="frame" x="55.5" y="417" width="30" height="36"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="15"/>
-                                <state key="normal" title="sleep">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kd5-Wq-4Zk" userLabel="night">
+                                <rect key="frame" x="12" y="387" width="30" height="28"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="10"/>
+                                <state key="normal" title="O"/>
+                                <connections>
+                                    <action selector="sleepbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oMi-4H-6E9"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="brush teeth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obg-aO-wEE">
+                                <rect key="frame" x="38" y="191" width="82.5" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="iRi-q7-J0r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wash face" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5a7-nj-5Yk">
+                                <rect key="frame" x="36" y="227" width="76" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="1zu-gD-gSJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="take shower" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzN-Qt-3FB">
+                                <rect key="frame" x="36.5" y="263" width="91.5" height="36"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="eat food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPc-xX-fFa">
+                                <rect key="frame" x="36" y="305" width="62" height="32"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="drink water" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsf-cz-gMI">
+                                <rect key="frame" x="35.5" y="345" width="86" height="32"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sleep" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQh-ZY-N6s">
+                                <rect key="frame" x="38.5" y="383" width="38" height="32"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.81022812144344902" green="0.68257488611652473" blue="0.86087566614151001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="2h9-gc-CHR" firstAttribute="top" secondItem="Uwy-hg-MfS" secondAttribute="bottom" constant="20" id="0Ea-fD-Jyt"/>
-                            <constraint firstItem="ndd-Yn-aeL" firstAttribute="top" secondItem="yu1-qB-v4C" secondAttribute="bottom" constant="5" id="3u1-ef-0Mb"/>
-                            <constraint firstItem="kz8-RZ-aPU" firstAttribute="top" secondItem="E7b-eO-JUa" secondAttribute="bottom" constant="5" id="4Qy-9p-bSb"/>
+                            <constraint firstItem="Hh9-OB-bfb" firstAttribute="top" secondItem="z63-Jz-TjZ" secondAttribute="bottom" constant="10" id="09r-tb-yZP"/>
+                            <constraint firstItem="rzN-Qt-3FB" firstAttribute="top" secondItem="iEJ-0U-j6d" secondAttribute="bottom" constant="2" id="102-SN-Sth"/>
+                            <constraint firstItem="iEJ-0U-j6d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-180" id="2TT-rk-QCa"/>
+                            <constraint firstItem="z63-Jz-TjZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-180" id="37n-kO-7Nq"/>
+                            <constraint firstItem="z63-Jz-TjZ" firstAttribute="top" secondItem="93K-hK-Mfk" secondAttribute="bottom" constant="10" id="4IP-PV-4yd"/>
+                            <constraint firstItem="ypo-uf-sAB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-180" id="4S9-Oq-PIl"/>
+                            <constraint firstItem="5a7-nj-5Yk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-133" id="722-aX-lNp"/>
+                            <constraint firstItem="tsf-cz-gMI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-128.5" id="8VY-iX-cF7"/>
+                            <constraint firstItem="Obg-aO-wEE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-128" id="9qZ-UU-0qf"/>
                             <constraint firstItem="aSv-ZX-kHg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-350" id="DHE-hG-6qL"/>
-                            <constraint firstItem="E7b-eO-JUa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-136.5" id="Guh-YK-IVf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ohG-Kw-8h5" secondAttribute="trailing" constant="10" id="HSN-jd-lzj"/>
-                            <constraint firstItem="E7b-eO-JUa" firstAttribute="top" secondItem="2h9-gc-CHR" secondAttribute="bottom" constant="5" id="IHe-Yu-8Ds"/>
-                            <constraint firstItem="vjQ-Ud-e4k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-136.5" id="IiE-YM-7DI"/>
                             <constraint firstItem="Uwy-hg-MfS" firstAttribute="top" secondItem="ohG-Kw-8h5" secondAttribute="bottom" constant="20" id="Ixs-OW-CTB"/>
-                            <constraint firstItem="2h9-gc-CHR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-136.5" id="KC9-nv-967"/>
-                            <constraint firstItem="yu1-qB-v4C" firstAttribute="top" secondItem="vjQ-Ud-e4k" secondAttribute="bottom" constant="5" id="SQ4-f3-cr8"/>
-                            <constraint firstItem="yu1-qB-v4C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-136.5" id="Vwg-0r-nmm"/>
+                            <constraint firstItem="rzN-Qt-3FB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-125" id="JDE-f6-5J8"/>
+                            <constraint firstItem="iEJ-0U-j6d" firstAttribute="top" secondItem="ypo-uf-sAB" secondAttribute="bottom" constant="10" id="Jp0-zY-eAP"/>
+                            <constraint firstItem="93K-hK-Mfk" firstAttribute="top" secondItem="iEJ-0U-j6d" secondAttribute="bottom" constant="10" id="LgL-es-rNs"/>
+                            <constraint firstItem="lQh-ZY-N6s" firstAttribute="top" secondItem="Hh9-OB-bfb" secondAttribute="bottom" constant="6" id="OKi-yx-QEe"/>
+                            <constraint firstItem="Obg-aO-wEE" firstAttribute="top" secondItem="ohG-Kw-8h5" secondAttribute="bottom" constant="69" id="PPn-XW-0a0"/>
+                            <constraint firstItem="kd5-Wq-4Zk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-180" id="UIS-tX-TfV"/>
+                            <constraint firstItem="lQh-ZY-N6s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-149.5" id="YWH-6y-CGJ"/>
+                            <constraint firstItem="tsf-cz-gMI" firstAttribute="top" secondItem="z63-Jz-TjZ" secondAttribute="bottom" constant="6" id="ZCw-D1-14T"/>
+                            <constraint firstItem="ypo-uf-sAB" firstAttribute="top" secondItem="Uwy-hg-MfS" secondAttribute="bottom" constant="1" id="axy-Ff-Jpw"/>
+                            <constraint firstItem="yPc-xX-fFa" firstAttribute="top" secondItem="rzN-Qt-3FB" secondAttribute="bottom" constant="6" id="cGG-rI-mTU"/>
+                            <constraint firstItem="rzN-Qt-3FB" firstAttribute="top" secondItem="5a7-nj-5Yk" secondAttribute="bottom" constant="4" id="fIM-3c-uSs"/>
+                            <constraint firstItem="yPc-xX-fFa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-140" id="g5c-AZ-zJw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Uwy-hg-MfS" secondAttribute="bottom" constant="670" id="gZB-0x-Igx"/>
+                            <constraint firstItem="yPc-xX-fFa" firstAttribute="top" secondItem="93K-hK-Mfk" secondAttribute="bottom" constant="6" id="h3D-Kw-gvS"/>
                             <constraint firstItem="ohG-Kw-8h5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="10" id="j4d-cu-TSo"/>
-                            <constraint firstItem="kz8-RZ-aPU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-136.5" id="k3l-5p-gpa"/>
+                            <constraint firstItem="5a7-nj-5Yk" firstAttribute="top" secondItem="Obg-aO-wEE" secondAttribute="bottom" constant="4" id="llH-oC-uUY"/>
+                            <constraint firstItem="tsf-cz-gMI" firstAttribute="top" secondItem="yPc-xX-fFa" secondAttribute="bottom" constant="8" id="q6K-lw-4mZ"/>
+                            <constraint firstItem="93K-hK-Mfk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-180" id="ruU-fu-mfW"/>
+                            <constraint firstItem="kd5-Wq-4Zk" firstAttribute="top" secondItem="Hh9-OB-bfb" secondAttribute="bottom" constant="10" id="t5v-5F-n8Y"/>
                             <constraint firstItem="ohG-Kw-8h5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-350" id="tRO-do-rZ0"/>
                             <constraint firstItem="aSv-ZX-kHg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="95" id="tmz-GF-5F1"/>
                             <constraint firstItem="Uwy-hg-MfS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-137" id="v34-2R-XYr"/>
-                            <constraint firstItem="vjQ-Ud-e4k" firstAttribute="top" secondItem="kz8-RZ-aPU" secondAttribute="bottom" constant="5" id="xdQ-nS-e1B"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ohG-Kw-8h5" secondAttribute="bottom" constant="740" id="ydD-FM-BpQ"/>
-                            <constraint firstItem="ndd-Yn-aeL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-136.5" id="yv6-Hl-jp1"/>
+                            <constraint firstItem="Hh9-OB-bfb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-180" id="yfN-aj-Vdu"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="brushteeth" destination="2h9-gc-CHR" id="BHA-Vf-vdi"/>
+                        <outlet property="facebutton" destination="iEJ-0U-j6d" id="5EP-WR-x4g"/>
+                        <outlet property="facedisplay" destination="5a7-nj-5Yk" id="7TI-xu-dAM"/>
+                        <outlet property="foodbutton" destination="z63-Jz-TjZ" id="9Gp-a3-Z6S"/>
+                        <outlet property="fooddisplay" destination="yPc-xX-fFa" id="fUG-kb-dNz"/>
+                        <outlet property="showerbutton" destination="93K-hK-Mfk" id="ipj-R2-oku"/>
+                        <outlet property="showerdisplay" destination="rzN-Qt-3FB" id="xiR-mh-87y"/>
+                        <outlet property="sleepbutton" destination="kd5-Wq-4Zk" id="Atz-mz-CfF"/>
+                        <outlet property="sleepdisplay" destination="lQh-ZY-N6s" id="jPw-7D-sOo"/>
+                        <outlet property="teethbutton" destination="ypo-uf-sAB" id="BVc-kx-FdL"/>
+                        <outlet property="teethdisplay" destination="Obg-aO-wEE" id="BiR-P5-Lqi"/>
+                        <outlet property="waterbutton" destination="Hh9-OB-bfb" id="dQj-9h-XTm"/>
+                        <outlet property="waterdisplay" destination="tsf-cz-gMI" id="3ur-r8-JCU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
